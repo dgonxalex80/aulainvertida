@@ -79,7 +79,7 @@ xaringanExtra::use_panelset()
   <img src="img/comunicacion3.png" width="1000">
 ]
 <!------------------------------------------------------------------- -->panel-name[Ayer-Hoy]
-
+.panel[.panel-name[Liz R]
 ### LIZ REISBERG
 
 .left-column[
@@ -100,14 +100,10 @@ Visitó la PUJCL en 2018
 + Reconoce que cada estudiante es único y aboga por enfoques de enseñanza que se adapten a las necesidades individuales de cada alumno.
 + Valora el uso de la tecnología como una herramienta poderosa para mejorar la educación, permitiendo nuevas formas de aprender y enseñar.
 ]
-
-.panel[.panel-name[Tecnología]
-### Las herramientas tecnológicas son una ayuda, no un propósito
-
-<img src="img/software_libre2.png" width="800">
 ]
+
 <!------------------------------------------------------------------- -->
-.panel[.panel-name[Liz Reibergerg tipos problemas]
+.panel[.panel-name[Liz-tipos problemas]
 .pull-left[
 Tipo 1 :  Cuantos triangulos hay?
 
@@ -120,6 +116,12 @@ Tipo 2 :  Dilema del tren
 <img src="img/tren.png" width="500">
 ]
 
+]
+
+.panel[.panel-name[Tecnología]
+### Las herramientas tecnológicas son una ayuda, no un propósito
+
+<img src="img/software_libre.png" width="800">
 ]
 <!------------------------------------------------------------------- -->
 .panel[.panel-name[Mis problemas]
@@ -222,7 +224,7 @@ source("R/nube1.R")
 ---
 ## Requerimientos
 
-<img src="img/software_libre2.png" width="1200">
+<img src="img/software_libre.png" width="1200">
 
 ---
 ## Dinámica del curso
