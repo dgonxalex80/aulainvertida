@@ -1,0 +1,154 @@
+---
+title: "**Titulo presentación**"
+subtitle: "**subtitulo presentación**"  
+author: "dgonzalez80"
+date: '`r Sys.Date()`'
+output:
+  xaringan::moon_reader:
+    css: [themer1.css]
+    nature:
+      slideNumberFormat: "%current%"
+      highlightStyle: github
+      highlightLines: true
+      ratio: 16:9
+      countIncrementalSlides: true
+---
+
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(
+  fig.width=9, fig.height=3.5, fig.retina=3,
+  out.width = "100%",
+  cache = FALSE,
+  echo = TRUE,
+  message = FALSE, 
+  warning = FALSE,
+  hiline = TRUE
+)
+c1="#B9D1EA"
+C2="#618ABB"
+C3="#00235e"
+C4="#FDBA21"
+
+C5="#134074"
+C6="#8DA9C4"
+C7="#EEF4ED"
+#B9D1EA
+```
+
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_duo_accent(
+  primary_color = C3, #"#1381B0", # texto primario
+  secondary_color = C4, # "#FF961C", # texto secundario
+  inverse_header_color = C7     # "#FFFFFF" # texto inverso
+)
+```
+
+## **Colors**
+
+.left-column[
+columna izquierda
+
+~~strikethrough~~
+
+**Bold Color** 
+
+_Italic Color_
+
+`Inline Code`
+]
+
+.right-column[
+columna derecha
+
+**Bold Color**
+
+_Italic Color_
+
+`Inline Code`
+
+]
+
+---
+
+### **Cita**
+
+> Esta es una cia con su autor.When something is important enough, you do it even if the odds are not in your favor. When something is important enough, you do it even if the odds are not in your favor.
+> 
+> Autor(2024)
+
+---
+
+## **Tablas**
+
+```{r}
+knitr::kable(head(mtcars), format = 'html')
+```
+---
+# **listas**
+
+.pull-left[
+#### Here is an unordered list:
+
+*   Item foo
+*   Item bar
+*   Item baz
+*   Item zip
+]
+
+.pull-right[
+
+#### **And an ordered list:**
+
+1.  Item one
+1.  Item two
+1.  Item three
+1.  Item four
+]
+
+---
+## **Square image**
+
+<center>
+<img src="https://octodex.github.com/images/labtocat.png" alt="GithHub Octocat" height="400px" />
+</center>
+
+.footnote[GitHub Octocat]
+
+---
+
+## **Two images**
+
+.pull-left[
+![A GitHub Octocat, style "mother hubber"](https://octodex.github.com/images/motherhubbertocat.png)
+]
+
+.pull-right[
+![A GitHub Octocat, style "dinotcat"](https://octodex.github.com/images/dinotocat.png)
+]
+
+---
+class: inverse center middle
+
+# **Saludos**
+
+
+---
+class: center, middle
+
+# **Thanks!**
+
+Slides created via the R packages:
+
+[**xaringan**](https://github.com/yihui/xaringan)<br>
+[gadenbuie/xaringanthemer](https://github.com/gadenbuie/xaringanthemer)
+
+The chakra comes from [remark.js](https://remarkjs.com), [**knitr**](http://yihui.name/knitr), and [R Markdown](https://rmarkdown.rstudio.com).
+
+---
+# **Referencias**
+
+

@@ -1,0 +1,126 @@
+---
+title: <span style="color:#0E9183">**Experiencias en el salón de clase**</span>
+subtitle: "Aula invertida"  
+author: "Daniel Enrique González Gómez"
+date: '`r Sys.Date()`'
+output:
+  xaringan::moon_reader:
+    css: [themer1.css]
+    nature:
+      slideNumberFormat: "%current%"
+      highlightStyle: github
+      highlightLines: true
+      ratio: 16:9
+      countIncrementalSlides: true
+---
+
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(
+  fig.width=9, fig.height=3.5, fig.retina=3,
+  out.width = "100%",
+  cache = FALSE,
+  echo = TRUE,
+  message = FALSE, 
+  warning = FALSE,
+  hiline = TRUE
+)
+c1="#B9D1EA"
+C2="#618ABB"
+C3="#00235e"
+C4="#FDBA21"
+
+C5="#134074"
+C6="#8DA9C4"
+C7="#EEF4ED"
+#B9D1EA
+
+```
+
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_duo_accent(
+  primary_color = C3, #"#1381B0", # texto primario
+  secondary_color = C4, # "#FF961C", # texto secundario
+  inverse_header_color = C7     # "#FFFFFF" # texto inverso
+)
+```
+---
+
+.pull-left[ 
+# Agenda
+
+## Introducción
+## Anecedentes
+## Proceso de diseño y construcción
+## Puesta en marcha
+## Ejercicio
+]
+.pull-right[
+
+
+```{r, echo=FALSE, out.width="20%", fig.align = "center"}
+knitr::include_graphics("img/aula1.png")
+```
+
+]
+
+
+---
+# 
+.left-column[
+
+## 
+]
+.right-column[
+
+```{r, echo=FALSE, out.width="80%", fig.align = "center"}
+# knitr::include_graphics("img/prehistoria.png")
+```
+]
+---
+
+.left-column[
+
+]
+.right-column[
+```{r, echo=FALSE, out.width="40%", fig.align = "center"}
+# knitr::include_graphics("img/titanic1.png")
+```
+
+
+]
+---
+.pull-left[
+
+## 
+
+```{r, echo=FALSE, out.width="50%", fig.align = "center"}
+# knitr::include_graphics("img/piecarbono.png")
+```
+
+]
+
+.pull-right[
+
+## 
+```{r, echo=FALSE, out.width="80%", fig.align = "center"}
+# knitr::include_graphics("img/cara.png")
+```
+
+
+]
+---
+
+---
+
+---
+class: center middle
+
+# **Gracias**
+
+Daniel Enrique González Gómez
+dgonzalez@javerianacali.edu.co
+---
