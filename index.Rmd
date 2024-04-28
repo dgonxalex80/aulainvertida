@@ -18,13 +18,13 @@ output:
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE)
 knitr::opts_chunk$set(
-  fig.width=9, fig.height=3.5, fig.retina=3,
-  out.width = "100%",
-  cache = FALSE,
-  echo = TRUE,
-  message = FALSE, 
-  warning = FALSE,
-  hiline = TRUE
+fig.width=9, fig.height=3.5, fig.retina=3,
+out.width = "100%",
+cache = FALSE,
+echo = TRUE,
+message = FALSE, 
+warning = FALSE,
+hiline = TRUE
 )
 c1="#B9D1EA"
 C2="#618ABB"
@@ -42,10 +42,9 @@ C7="#EEF4ED"
 ```{r xaringan-themer, include=FALSE, warning=FALSE}
 library(xaringanthemer)
 style_duo_accent(
-  primary_color = C3, #"#1381B0", # texto primario
-  secondary_color = C4, # "#FF961C", # texto secundario
-  inverse_header_color = C7     # "#FFFFFF" # texto inverso
-)
+primary_color = C3, #"#1381B0", # texto primario
+secondary_color = C3, # "#FF961C", # texto secundario
+inverse_header_color = C7)     # "#FFFFFF" # texto inverso
 ```
 
 class: middle
@@ -53,7 +52,7 @@ class: middle
 .pull-left[ 
 # Agenda
 
-## Anecedentes
+## Antecedentes
 ## Proceso de diseño y construcción
 ## Puesta en marcha
 
@@ -73,39 +72,35 @@ knitr::include_graphics("img/aula1.png")
 xaringanExtra::use_panelset()
 ```
 .panelset[
-  .panel[.panel-name[Comunicación]
-  ### La forma de comunicarnos cambia de manera acelerada
+.panel[.panel-name[Comunicación]
+### La forma de comunicarnos cambia de manera acelerada
 
-  <img src="img/comunicacion3.png" width="1000">
+<img src="img/comunicacion3.png" width="1000">
 ]
 <!------------------------------------------------------------------- -->panel-name[Ayer-Hoy]
 .panel[.panel-name[Liz R]
 ### LIZ REISBERG
 
 .left-column[
- <img src="img/liz.png" width="300">
-
+<img src="img/liz.png" width="100">
 ]
 .right-column[
-
 Consultora internacional en educación superior y política educativa. Doctorada en Educación Internacional y Comparada de la Universidad de Stanford.
-
-Visitó la PUJCL en 2018
-“La nueva dinámica del aula: la Enseñanza y el Aprendizaje para los millennials” (jun/2018)
-
 + No podemos criar a nuestros hijos, como nos criaron a nosotros...
 + Hay que hacer la pregunta clave... 
 + Los estudiantes aprenden mejor cuando están activamente involucrados en el proceso de aprendizaje, participando en actividades significativas y desafiantes.
 + Fomenta el trabajo en equipo y la colaboración entre los estudiantes, creyendo que el aprendizaje es un proceso social que se beneficia de la interacción con otros.
 + Reconoce que cada estudiante es único y aboga por enfoques de enseñanza que se adapten a las necesidades individuales de cada alumno.
 + Valora el uso de la tecnología como una herramienta poderosa para mejorar la educación, permitiendo nuevas formas de aprender y enseñar.
+
+Visitó la PUJCL en 2018 : “La nueva dinámica del aula: la Enseñanza y el Aprendizaje para los millennials” (jun/2018)
 ]
 ]
 
 <!------------------------------------------------------------------- -->
 .panel[.panel-name[Liz-tipos problemas]
 .pull-left[
-Tipo 1 :  Cuantos triangulos hay?
+Tipo 1 :  Cuantos triángulos hay?
 
 <img src="img/triangulos.jpeg" width="300">
 
@@ -113,6 +108,7 @@ Tipo 1 :  Cuantos triangulos hay?
 
 .pull-right[
 Tipo 2 :  Dilema del tren 
+¿Qué harías?
 <img src="img/tren.png" width="500">
 ]
 
@@ -120,16 +116,14 @@ Tipo 2 :  Dilema del tren
 
 .panel[.panel-name[Tecnología]
 ### Las herramientas tecnológicas son una ayuda, no un propósito
-
-<img src="img/software_libre.png" width="800">
+<center>
+<img src="img/software_libre.png" width="700">
+</center>
 ]
 <!------------------------------------------------------------------- -->
 .panel[.panel-name[Mis problemas]
 
 <img src="img/walpole.png" width="800">
-
-
-
 
 ]
 <!------------------------------------------------------------------- -->
@@ -138,7 +132,6 @@ Tipo 2 :  Dilema del tren
 .pull-left[
 
 ### Programas
-
 * Ingeniería Civil (ABET)
 * Ingeniería de Sistemas (ABET)
 * Ingeniería Electrónica (ABET)
@@ -148,15 +141,13 @@ Tipo 2 :  Dilema del tren
 * Ingeniería Biomédica
 
 ### Requerimientos carreras 
-
-* Enfasis en computo
+* Énfasis en computo
 * ABET : ABCDE....K
 ]
 
 .pull-right[
 
-### Conenido
-
+### Contenido
 * Estadística descriptiva
 * Probabilidad
 * Variable aleatoria
@@ -164,14 +155,12 @@ Tipo 2 :  Dilema del tren
 * Regresión lineal
 
 ### Lineamientos académicos
-
-* 3 parciales %
-* 3 quices %
-* 1 proyecto %
+* 3 parciales 60%;  3 quices 20%; * 1 proyecto 20% 
+* Evaluaciones escritas
+* 30% 70% 100%
+* Semana 5-6, 11-12, 17-18
+* 4to, 5to semestre, prerrequisitos diferentes...
 ]
-
-
-
 
 ]
 <!------------------------------------------------------------------- -->
@@ -182,7 +171,7 @@ Tipo 2 :  Dilema del tren
 ## Proceso de diseño y construcción
 ### Javevirtual - Magis
 
-<img src="img/javevirtual.png" width="1000">
+<img src="img/javevirtual.png" width="800">
 
 * Andrea Serena, Carlos Murillas, Javier Delgado, David Mejía, Adriana Morales, Santiago Valencia,  Natalia Colmenares,  Donovan Del Valle,  Ana Murillo, Tatiana Valencia, ... 
 
@@ -218,7 +207,9 @@ source("R/nube1.R")
 ## Puesta en marcha
 ### Curso de PyE
 
-<img src="img/modulos.png" width="1000">
+<center>
+<img src="img/modulos.png" width="800">
+</center>
 <!------------------------------------------------------------------- -->
 
 ---
@@ -234,8 +225,8 @@ source("R/nube1.R")
 
 #### Sesión 1 :Presentación de la guía
 
-* Presentación de la guía y de los resucursos de la unidad
-* Introducción altema
+* Presentación de la guía y de los recursos de la unidad
+* Introducción al tema
 
 #### Sesión 2 : Trabajo en clase
 
@@ -251,8 +242,8 @@ source("R/nube1.R")
 
 .pull-right[
 **Nota** : 
-* El material está disponible un dia antes de la primera sesión
-* En semana de examenes no se adiciona tema
+* El material está disponible un día antes de la primera sesión
+* En semana de exámenes no se adiciona tema
 * Se emplea R- RStudio para el desarrollo de las actividades
 * Se emplea la plataforma Brightspace para el recibo y la evaluación de las actividades
 * El proceso del curso ha tenido el acompañamiento y seguimiento del MAGIS
@@ -261,7 +252,7 @@ source("R/nube1.R")
 <br/>
 
 <center>
-<img src="img/sesiones.png" width="350">
+<img src="img/sesiones.png" width="270">
 </center>
 ]
 ---
@@ -275,9 +266,9 @@ source("R/nube1.R")
 
 ---
 ## Curso en Brightspace
-
-<img src="img/plataforma.png" width="1000">
-
+<center>
+<img src="img/plataforma.png" width="600">
+</center>
 [Web-PyE 2023-2](https://dgonxalex80.github.io/probabilidad20232/)
 
 ---
@@ -292,3 +283,9 @@ class: center middle
 
 Daniel Enrique González Gómez <br/>
 dgonzalez@javerianacali.edu.co
+
+---
+# Enlaces
+
+
+
